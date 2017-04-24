@@ -22,7 +22,7 @@
 .header-name {
   text-align: right;
   text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 2vw;
   color: #2d3c49;
@@ -31,7 +31,7 @@
 .designation {
   text-align: right;
   text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 1.22vw;
   color: #2d3c49;
@@ -45,7 +45,7 @@
   width: 10%;
 }
 
-.horizontal-ruler {
+.hr-ruler {
   border-color: #7d97ad;
   width: 100%;
 }
@@ -147,23 +147,30 @@
   box-sizing: border-box;
 }
 
-body,figure {
+body,
+figure {
   margin: 0;
 }
 
-img {
-  display: block;
-  height: auto;
-  max-width: 100%;
-  width: 100vw;
-}
-
-.project-image {
-  width: 100vw;
+.img-responsive {
+max-width: 100%; 
+display:block; 
+height: auto;
 }
 
 @media screen and (max-width:500px) {
-  .col-1,.col-2,.col-3,.col-4,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12,.row {
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12,
+  .row {
     width: 100%;
     display: block;
   }
@@ -187,7 +194,18 @@ img {
 }
 
 @media screen and (min-width:501px) and (max-width:768px) {
-  .col-1,.col-2,.col-3,.col-4,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12,.row {
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12,
+  .row {
     width: 100%;
     display: block;
   }
@@ -208,9 +226,5 @@ img {
 
   figcaption {
     margin: 0 auto;
-  }
-
-  .project-image {
-    width: 50vw;
   }
 }
